@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fed2Future — Translate Your Federal Skills Into Your Next Career</title>
+<meta name="description" content="The central source for federal employees moving to state, local, and private-sector careers. Translate your GS series into real job titles, salaries, and hiring states — free.">
+<link rel="canonical" href="https://fed2future.vercel.app/">
+<meta property="og:title" content="Fed2Future — Translate Your Federal Skills Into Your Next Career">
+<meta property="og:description" content="The central source for federal employees moving to state, local, and private-sector careers. Translate your GS series into real job titles, salaries, and hiring states — free.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site"><div class="container">
+<a class="logo" href="index.html">Fed2<span>Future</span></a>
+<nav><a href="crosswalk/index.html">Skills Crosswalk</a><a href="index.html#signup">Free Newsletter</a></nav>
+</div></header>
+
+<div class="hero"><div class="container">
+<h1>You served the country. Now translate that service into your next career.</h1>
+<p class="sub">Fed2Future is the central source for turning your federal occupational series into real state, local, and private-sector job titles — with salaries, hiring states, and a plain-English playbook.</p>
+<div class="searchbox">
+<h2>Find your equivalent job in 10 seconds</h2>
+<div class="searchrow">
+<select id="series"><option value="0301-miscellaneous-administration">0301 — Miscellaneous Administration & Program Specialist</option><option value="0303-misc-clerk-assistant">0303 — Miscellaneous Clerk & Assistant</option><option value="0201-human-resources-specialist">0201 — Human Resources Specialist</option><option value="0203-human-resources-assistant">0203 — Human Resources Assistant</option><option value="0260-equal-employment-opportunity">0260 — Equal Employment Opportunity Specialist</option><option value="0340-program-manager">0340 — Program Manager</option><option value="0341-administrative-officer">0341 — Administrative Officer</option><option value="0343-management-program-analyst">0343 — Management & Program Analyst</option><option value="0501-financial-administration">0501 — Financial Administration Specialist</option><option value="0510-accountant">0510 — Accountant</option><option value="0511-auditor">0511 — Auditor</option><option value="0560-budget-analyst">0560 — Budget Analyst</option><option value="0610-registered-nurse">0610 — Registered Nurse (Federal)</option><option value="0685-public-health-program-specialist">0685 — Public Health Program Specialist</option><option value="0801-general-engineer">0801 — General Engineer</option><option value="0810-civil-engineer">0810 — Civil Engineer</option><option value="0855-electronics-engineer">0855 — Electronics Engineer</option><option value="0905-general-attorney">0905 — General Attorney</option><option value="0962-contact-representative">0962 — Contact Representative</option><option value="1035-public-affairs-specialist">1035 — Public Affairs Specialist</option><option value="1082-writer-editor">1082 — Writer-Editor</option><option value="1101-general-business-industry">1101 — General Business & Industry Specialist</option><option value="1102-contract-specialist">1102 — Contract Specialist</option><option value="1109-grants-management-specialist">1109 — Grants Management Specialist</option><option value="1170-realty-specialist">1170 — Realty Specialist</option><option value="1550-computer-scientist">1550 — Computer Scientist</option><option value="1811-criminal-investigator">1811 — Criminal Investigator (Special Agent)</option><option value="2210-it-specialist">2210 — IT Specialist (2210)</option><option value="0132-intelligence-specialist">0132 — Intelligence Specialist</option><option value="0185-social-worker">0185 — Social Worker (Federal)</option></select>
+<select id="state"><option value="">All states (series overview)</option><option value="maryland">Maryland</option><option value="virginia">Virginia</option><option value="pennsylvania">Pennsylvania</option><option value="new-york">New York</option><option value="california">California</option><option value="texas">Texas</option><option value="florida">Florida</option><option value="georgia">Georgia</option><option value="colorado">Colorado</option><option value="district-of-columbia">District of Columbia</option></select>
+<button class="btn" onclick="go()">Translate My Series &#8594;</button>
+</div>
+</div>
+<div class="stats">
+<div class="stat"><b>300,000+</b><small>federal layoffs announced since 2025</small></div>
+<div class="stat"><b>10.3%</b><small>federal workforce reduction in one year</small></div>
+<div class="stat"><b>300</b><small>series-to-state crosswalk pages, free</small></div>
+<div class="stat"><b>$0</b><small>cost to use the crosswalk</small></div>
+</div>
+</div></div>
+
+<section class="block"><div class="container">
+<h2 class="sect">The problem nobody built for — until now</h2>
+<p class="lead">The federal government classifies your career into one of ~440 occupational series. Every state uses its own incompatible titles and pay bands. OPM's only crosswalk stops at statistical codes. So when 300,000 careers were disrupted, every single person had to decode 50 state systems alone. Fed2Future puts the whole map in one place.</p>
+<div class="grid3">
+<div class="card"><h3><span class="check">&#10003;</span> Your series, translated</h3><p>Enter your GS series and get the closest state classifications, private-sector titles, and realistic salary ranges — in plain English, not HR-speak.</p></div>
+<div class="card"><h3><span class="check">&#10003;</span> Where the jobs actually are</h3><p>States like Pennsylvania now credit federal experience as state experience by executive order. New York is filling ~7,000 vacancies. We track who's hiring feds and where to apply.</p></div>
+<div class="card"><h3><span class="check">&#10003;</span> The money side, covered</h3><p>TSP rollovers, FERS decisions, severance taxes, salary negotiation — guidance from a CPA who's navigated career pivots at the highest level. Most career sites can't read your TSP statement. We can.</p></div>
+</div>
+</div></section>
+
+<section class="alt block"><div class="container">
+<h2 class="sect">Browse the crosswalk</h2>
+<p class="lead">30 federal occupational series &times; 10 federal-heavy states, mapped and updated. Start with your series:</p>
+<p><a class="pill" href="crosswalk/0301-miscellaneous-administration/index.html">0301 Miscellaneous Administration & Program Specialist</a> <a class="pill" href="crosswalk/0303-misc-clerk-assistant/index.html">0303 Miscellaneous Clerk & Assistant</a> <a class="pill" href="crosswalk/0201-human-resources-specialist/index.html">0201 Human Resources Specialist</a> <a class="pill" href="crosswalk/0203-human-resources-assistant/index.html">0203 Human Resources Assistant</a> <a class="pill" href="crosswalk/0260-equal-employment-opportunity/index.html">0260 Equal Employment Opportunity Specialist</a> <a class="pill" href="crosswalk/0340-program-manager/index.html">0340 Program Manager</a> <a class="pill" href="crosswalk/0341-administrative-officer/index.html">0341 Administrative Officer</a> <a class="pill" href="crosswalk/0343-management-program-analyst/index.html">0343 Management & Program Analyst</a> <a class="pill" href="crosswalk/0501-financial-administration/index.html">0501 Financial Administration Specialist</a> <a class="pill" href="crosswalk/0510-accountant/index.html">0510 Accountant</a> <a class="pill" href="crosswalk/0511-auditor/index.html">0511 Auditor</a> <a class="pill" href="crosswalk/0560-budget-analyst/index.html">0560 Budget Analyst</a> <a class="pill" style="background:var(--navy2);color:#fff" href="crosswalk/index.html">See all 30 series &#8594;</a></p>
+<div class="byline">
+<div class="avatar">SK</div>
+<p><b>Built by Steven Kelly</b> — CPA, Dartmouth Tuck MBA, co-founder of a venture-backed healthcare company acquired in 2026, and a 100% service-disabled Navy veteran who has lived the government-to-civilian translation problem firsthand.</p>
+</div>
+</div></section>
+
+<section class="block"><div class="container">
+<div class="cta" id="signup">
+<h2>Get the free Federal Exit Checklist</h2>
+<p>Join the free Fed2Future Brief: one job-market insight, one transition tactic, and one money tip for transitioning feds, every week.</p>
+<form class="signup" action="https://formsubmit.co/stevendkelly@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New Fed2Future subscriber">
+<input type="hidden" name="_captcha" value="false">
+<input type="email" name="email" placeholder="you@example.com" required>
+<button class="btn" type="submit">Get the Brief — Free</button>
+</form>
+</div>
+</div></section>
+<script>
+function go(){var s=document.getElementById('series').value;var st=document.getElementById('state').value;
+window.location.href='crosswalk/'+s+'/'+(st?st+'/':'')+'index.html';}
+</script>
+<footer class="site"><div class="container">
+<p><b>Fed2Future</b> — the central source for translating federal skills into your next career. Built by a CPA, Dartmouth MBA, and 100% service-disabled Navy veteran.</p>
+<p style="margin-top:8px">Career and salary information is educational, compiled from public sources, and is not legal, tax, or investment advice. Verify titles and pay with each state's official classification and pay schedules. Last updated July 2026.</p>
+</div></footer>
+</body></html>
